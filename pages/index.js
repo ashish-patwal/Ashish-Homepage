@@ -81,11 +81,15 @@ const Home = () => {
           </Heading>
           <BioSection>
             <BioYear>2000</BioYear>
-            Born in India (Hindustan), Dehradun.
+            Born in Dehradun, India.
           </BioSection>
           <BioSection>
             <BioYear>2018</BioYear>Completed my Junior College - Army Public
             School Roorkee
+          </BioSection>
+          <BioSection>
+            <BioYear>2019</BioYear>
+            Pursuing B.Tech Computer Science and Engineering
           </BioSection>
         </Section>
         <Section delay={0.3}>
