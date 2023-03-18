@@ -6,36 +6,31 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
   return (
-    <Layout title="Moodle Automate">
+    <Layout title="Placecom">
       <Container>
         <Title>
-          Rofi Youtube <Badge>2023</Badge>
+          Placecom <Badge>2023</Badge>
         </Title>
         <P>
-          A shell script that helps you to view youtube videos directly through
-          rofi launcher and mpv.
+          A startup landing page made using sveltekit, tailwindcss and daisyUI.
         </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="https://github.com/ashish-patwal/RofiYoutube">
-              https://github.com/ashish-patwal/RofiYoutube/{' '}
-              <ExternalLinkIcon mx="2px" />
+            <Link href="https://placecom.vercel.app">
+              https://placecom.vercel.app <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Platform</Meta>
-            <span>macOS/Linux</span>
+            <span>Windows/macOS/Linux</span>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>Shell Script</span>
+            <span>Sveltekit, TailwindCSS, DasiyUI</span>
           </ListItem>
         </List>
-        <WorkImage
-          src="/images/works/rofiYoutube_eyecatch.jpg"
-          alt="rofi_youtube"
-        />
+        <WorkImage src="/images/works/placecom.png" alt="placecom" />
       </Container>
     </Layout>
   )

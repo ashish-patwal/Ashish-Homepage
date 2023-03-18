@@ -3,6 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
+import thumbPlacecom from '../public/images/works/placecom.png'
 import thumbMoodle from '../public/images/works/moodle_eyecatch.png'
 import thumbRofiYoutube from '../public/images/works/rofiYoutube_eyecatch.jpg'
 
@@ -15,6 +16,13 @@ const Works = () => {
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
+            <WorkGridItem
+              id="placecom"
+              title="placecom"
+              thumbnail={thumbPlacecom}
+            >
+              A startup website made using sveltekit and tailwind.
+            </WorkGridItem>
             <WorkGridItem
               id="moodle_automate"
               title="Moodle Automate"

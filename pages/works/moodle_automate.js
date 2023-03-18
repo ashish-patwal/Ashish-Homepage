@@ -9,7 +9,7 @@ const Work = () => {
     <Layout title="Moodle Automate">
       <Container>
         <Title>
-          Moodle Automate <Badge>2022</Badge>
+          Moodle Automate <Badge>2023</Badge>
         </Title>
         <P>
           A python program / tool to automate the online learning platform
